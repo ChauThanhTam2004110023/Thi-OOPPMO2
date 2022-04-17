@@ -16,7 +16,7 @@ public class HangThucPham extends HangHoa{
     public HangThucPham(String tenHang, String loaiHang, String maHang, int soLuongTonKho, double donGia, Date ngaySX, Date ngayHetHan) {
         super(tenHang, loaiHang, maHang, soLuongTonKho, donGia);
         this.ngaySX = ngaySX;
-        NgayHetHan = ngayHetHan;
+        this.NgayHetHan = ngayHetHan;
     }
 
     @Override
