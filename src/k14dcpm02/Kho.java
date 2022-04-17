@@ -11,7 +11,8 @@ public class Kho{
 
     private List<HangHoa> list = new ArrayList<>();
     static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
-    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in); 
+    
 
     //private static HangHoa inPutHangHoa
 
@@ -108,6 +109,7 @@ public class Kho{
     public void them(HangHoa hangHoa)
     {
         this.list.add(hangHoa);
+        ReadFile.write("hanghoa.txt", list);
     }
 
     public HangHoa timHangTheoMa(String maHang)
