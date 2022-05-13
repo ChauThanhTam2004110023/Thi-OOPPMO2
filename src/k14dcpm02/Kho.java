@@ -12,26 +12,6 @@ public class Kho{
     private List<HangHoa> list = new ArrayList<>();
     static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
     Scanner sc = new Scanner(System.in); 
-    
-
-    //private static HangHoa inPutHangHoa
-
-    /// Giống như cảnh sát bắt tội phậm giữa nó lại ko cho nó chạy
-    // throws ko xài đc cho hàm tạo bởi vì hàm tạo ko có tên
-    // tr/catch có thể tạo đc hàm lệnh nhưng throws chỉ tạo đc hàm
-
-    /* Kho ()
-    {
-        try 
-        {
-            duLieuCoSan();
-        } 
-        catch (Exception e) 
-        {
-            e.printStackTrace();   
-        }
-        
-    } */
 
     public void duLieuCoSan() throws ParseException  
     {
@@ -47,8 +27,6 @@ public class Kho{
         list.add(new HangSanhSu("Ly", "Sành sứ", "002", 1100, 5.000, "Gốm Sài Gòn", simpleDateFormat.parse("22/3/2022")));
         list.add(new HangSanhSu("Chén dĩa", "Sành sứ", "003", 1200, 9.000, "Gốm bát tràng", simpleDateFormat.parse("30/3/2022")));
     }
-
-    
     HangHoa inPutHangHoa() throws ParseException
     {
         HangHoa hangHoa = null;
@@ -232,6 +210,9 @@ public class Kho{
             HangHoa hangHoa = inPutHangHoa();
             this.list.set(viTri, hangHoa);
         }
+    }
+
+    public void ReadFile(String fileName) {
     }
     
 

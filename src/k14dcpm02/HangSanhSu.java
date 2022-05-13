@@ -6,12 +6,10 @@ import java.util.Date;
 public class HangSanhSu extends HangHoa{
     private String nhaSanXuat;
     private Date ngayNhapKho;
-
     public HangSanhSu()
     {
 
     }
-
     public HangSanhSu(String tenHang, String loaiHang, String maHang, int soLuongTonKho, double donGia, String nhaSanXuat, Date ngayNhapKho) 
     {
         super(tenHang, loaiHang, maHang, soLuongTonKho, donGia);
@@ -23,7 +21,6 @@ public class HangSanhSu extends HangHoa{
     {
         return getDonGia() * 0.1;
     }
-
     @Override
     public String getDanhGia() {
         String d = null;

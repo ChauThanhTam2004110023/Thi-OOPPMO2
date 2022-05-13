@@ -7,24 +7,20 @@ import java.util.Date;
 public class HangThucPham extends HangHoa{
     private Date ngaySX;
     private Date NgayHetHan;
-
     public HangThucPham()
     {
-
+        
     }
-
     public HangThucPham(String tenHang, String loaiHang, String maHang, int soLuongTonKho, double donGia, Date ngaySX, Date ngayHetHan) {
         super(tenHang, loaiHang, maHang, soLuongTonKho, donGia);
         this.ngaySX = ngaySX;
         this.NgayHetHan = ngayHetHan;
     }
-
     @Override
     public double getThue() 
     {
         return getDonGia() * 0.05;
     }
-
     @Override
     public String getDanhGia() {
         String d = null;
@@ -39,7 +35,6 @@ public class HangThucPham extends HangHoa{
 
         return d;
     }
-
     @Override
     public String toString() {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyy");
@@ -60,6 +55,4 @@ public class HangThucPham extends HangHoa{
         calendar.set(year, month - 1, day);
         this.NgayHetHan = calendar.getTime();
     }
-
-    
 }

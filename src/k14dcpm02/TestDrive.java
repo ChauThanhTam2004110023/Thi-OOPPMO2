@@ -45,6 +45,7 @@ public class TestDrive{
             case "5": timKiemHangSSTheoMa(); break;
             case "6": xoaHang(); break;
             case "7": sua(); break;
+            case "8": Ghi(); break;
             default:
             {
                 System.out.println("Dữ liệu không đúng");
@@ -120,5 +121,16 @@ public class TestDrive{
         kho.suaHangHoa(maHang);
         nhanEnterDeTiepTuc();
         menu();
+    }
+
+    private static void Ghi() throws ParseException
+    {
+        System.out.println("Nhập file: ");
+        String fileName = null;
+        fileName = kho.sc.nextLine();
+        kho.ReadFile(fileName);
+        nhanEnterDeTiepTuc();
+        menu();
+
     }
 }
