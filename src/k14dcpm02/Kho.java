@@ -49,7 +49,6 @@ public class Kho{
             System.out.println("Ngày hết hạn: ");
             Date ngayHetHan = simpleDateFormat.parse(sc.nextLine());
             hangHoa = new HangThucPham(tenHang, loaiHang, maHang, soLuongTonKho, donGia, ngaySX, ngayHetHan);
-       
         }
         else if(loaiHang.equalsIgnoreCase("2"))
         {
@@ -58,7 +57,6 @@ public class Kho{
             System.out.println("Công suất(KW): ");
             String congSuatKW = sc.nextLine();
             hangHoa = new HangDienMay(tenHang, loaiHang, maHang, soLuongTonKho, donGia, tGBaoHanh, congSuatKW);
-           
         }
         else if(loaiHang.equalsIgnoreCase("3"))
         {
@@ -67,7 +65,6 @@ public class Kho{
             System.out.println("Ngày nhập kho: ");
             Date ngayNhapKho = simpleDateFormat.parse(sc.nextLine());
             hangHoa = new HangSanhSu(tenHang, loaiHang, maHang, soLuongTonKho, donGia, nhaSanXuat, ngayNhapKho);
-          
         }
         else
         {

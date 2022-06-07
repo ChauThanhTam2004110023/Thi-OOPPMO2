@@ -1,0 +1,50 @@
+[
+    {
+        "movie": "Dick and the boys",
+        "tag": "adventure, cartoon, comedy, fantasy, kid",
+        "rate": "3+",
+        "description": "adventure of Dick and his friends"
+    },
+    {
+        "movie": "Bizarre World",
+        "tag": "series, fantasy, horror, seinen",
+        "rate": "15+",
+        "description": "a group of scientists got isekai to a strange world with danger ahead"
+    },
+    {
+        "movie": "Hentai Kamen",
+        "tag": "series, action, comedy, ecchi",
+        "rate": "15+",
+        "description": "pervy Kamen fight degen enemies"
+    },
+    {
+        "movie": "Hentai Kamen 2",
+        "tag": "series, action, comedy, ecchi",
+        "rate": "15+",
+        "description": "the world is now without degen, what about Kamen?"
+    },
+    {
+        "movie": "HxH",
+        "tag": "series, ecchi, harem, romance",
+        "rate": "17+",
+        "description": "uwooooh seggggggs!... just kidding"
+    },
+    {
+        "movie": "DxD",
+        "tag": "series, ecchi, harem, fantasy, vampire",
+        "rate": "13+",
+        "description": "a guy got surrounded by boobas"
+    },
+    {
+        "movie": "Red Riding Moon",
+        "tag": "horror, drama, fantasy",
+        "rate": "13+",
+        "description": "Red Riding Hood hunts monsters..."
+    },
+    {
+        "movie": "The Movie",
+        "tag": "action",
+        "rate": "7+",
+        "description": "Not just a movie but ... idk, lessons?"
+    }
+]
